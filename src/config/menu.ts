@@ -8,7 +8,7 @@ export const navMenuConfig: NavMenuConfig = {
         {
           title: "Upgrade from V3",
           href: "/guides/upgrade-from-v3",
-          description: "Learn how to upgrade from the previuos version of the library."
+          description: "Learn how to upgrade from the previous version of the library."
         },
         {
           title: "Integration",
@@ -21,9 +21,9 @@ export const navMenuConfig: NavMenuConfig = {
           description: "Modify the interface using the library options and CSS variables"
         },
         {
-          title: "Adding dinamyc slides",
+          title: "Adding dynamicc slides",
           href: "/login",
-          description: "Learn how to add dinamyc slides using native fetch, axios or ajax.",
+          description: "Learn how to add dynamic slides using native fetch, axios or ajax.",
           disabled: true
         },
         {
