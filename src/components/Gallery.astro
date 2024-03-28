@@ -30,7 +30,9 @@ const { id = '', columns = 4, items = [] } = Astro.props;
 
 <script>
   import { GLightbox } from 'glightbox';
-  import { ImageSlide, VideoSlide, KeyboardNavigation } from 'glightbox/plugins';
+  import { ImageSlide } from '@glightbox/image';
+  import { KeyboardNavigation } from '@glightbox/keyboard-navigation';
+  import { VideoSlide } from '@glightbox/video';
 
   new GLightbox({
     appearance: {
